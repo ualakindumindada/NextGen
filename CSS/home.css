@@ -18,15 +18,31 @@ body {
 }
 
 h1 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 85px;
+  line-height: 100%;
+  font-weight: 600;
 }
-
+h4 {
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 500;
+}
 h5 {
   font-size: 20px;
   font-weight: 500;
 }
-
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+ 
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -80,7 +96,7 @@ header nav .right ul li a {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  border: 1px solid var(--dark-gray-color);
+  border: 1px solid var(--black-color);
   padding: 8px 15px;
   border-radius: 40px;
   transition: all 0.3s ease;
@@ -104,14 +120,68 @@ header nav .right ul li a:hover {
   background-color: var(--black-color);
   border-radius: 2px;
 }
+.hero-area {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Hero_Section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-area .content-group {
+  width: 100%;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-area .content-group h1 {
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: -20px;
+}
+.hero-area .content-group h4 {
+  text-align: center;
+  color: var(--white-color);
+}
+.hero-area .content-group a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.hero-area .content-group a:hover {
+  background-color: var(--primary-color);
+  color: var(--black-color);
+}
 
-
-
-
-
-
-
+/* Responsive Design */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
   .hamburger {
     display: flex;
   }
@@ -146,5 +216,11 @@ header nav .right ul li a:hover {
   header nav .right ul li a {
     font-size: 18px;
     padding: 10px 22px;
+  }
+  .hero-area {
+    height: 75vh;
+  }
+  .hero-area .content-group {
+    width: 90%;
   }
 }
