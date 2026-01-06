@@ -27,6 +27,11 @@ h2 {
   line-height: 100%;
   font-weight: 600;
 }
+h3 {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 600;
+}
 h4 {
   font-size: 32px;
   line-height: 100%;
@@ -46,7 +51,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -193,13 +197,167 @@ header nav .right ul li a:hover {
   color: var(--black-color);
   margin-bottom: 20px;
 }
+.our-sport-programs {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding: 5px 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-sport-programs .content-group {
+  width: 95%;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-sport-programs .content-group .top-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-sport-programs .content-group .top-section a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.our-sport-programs .content-group .top-section img {
+  margin-bottom: -5px;
+}
+.our-sport-programs .content-group .bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-sport-programs .content-group .bottom-section .sport-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.our-sport-programs .content-group .bottom-section .sport-card:nth-child(1) {
+  width: 295px;
+  height: 385px;
+  border-radius: 16px;
+  background-image: url("../images/Card1\ Image.png");
+}
+.our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
+  width: 295px;
+  height: 385px;
+  border-radius: 16px;
+  background-image: url("../images/Card2\ Image.png");
+}
+.our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
+  width: 295px;
+  height: 385px;
+  border-radius: 16px;
+  background-image: url("../images/Card3\ Image.png");
+}
+.our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
+  width: 295px;
+  height: 385px;
+  border-radius: 16px;
+  background-image: url("../images/Card4\ Image.png");
+}
+.our-sport-programs .content-group .bottom-section .sport-card .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+}
+.our-sport-programs .content-group .bottom-section .sport-card .top a {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-sport-programs .content-group .bottom-section .sport-card .top a:hover {
+  background-color: var(--primary-color);
+}
+.our-sport-programs .content-group .bottom-section .sport-card .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px;
+}
+.our-sport-programs .content-group .bottom-section .sport-card .bottom a {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+.our-sport-programs .content-group .bottom-section .sport-card .bottom a:hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
 
 /* Responsive Design */
+
+/* Tablet Devices */
 @media (max-width: 1024px) {
+  .hero-area {
+    height: 85vh;
+  }
   .about-section .content-group {
     width: 80%;
   }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(1) {
+    width: 200px;
+    height: 325px;
+    border-radius: 16px;
+    background-image: url("../images/Card1\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
+    width: 200px;
+    height: 325px;
+    border-radius: 16px;
+    background-image: url("../images/Card2\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
+    width: 200px;
+    height: 325px;
+    border-radius: 16px;
+    background-image: url("../images/Card3\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
+    width: 200px;
+    height: 325px;
+    border-radius: 16px;
+    background-image: url("../images/Card4\ Image.png");
+  }
 }
+
+/* Mobile Devices */
 @media (max-width: 768px) {
   h1 {
     font-size: 35px;
@@ -211,8 +369,13 @@ header nav .right ul li a:hover {
     line-height: 100%;
     font-weight: 600;
   }
-  h4 {
+  h3 {
     font-size: 20px;
+    line-height: 100%;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 18px;
     line-height: 100%;
     font-weight: 500;
   }
@@ -263,5 +426,49 @@ header nav .right ul li a:hover {
   }
   .about-section {
     padding: 70px 20px;
+  }
+  .our-sport-programs .content-group {
+    width: 95%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-sport-programs .content-group .top-section a {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .our-sport-programs .content-group .bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(1) {
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    background-image: url("../images/Card1\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    background-image: url("../images/Card2\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    background-image: url("../images/Card3\ Image.png");
+  }
+  .our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+    background-image: url("../images/Card4\ Image.png");
   }
 }
