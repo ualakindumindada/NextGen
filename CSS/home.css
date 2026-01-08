@@ -138,7 +138,7 @@ header nav .right ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../Images/Hero_Section.png");
+  background-image: url("Images/Hero_Section.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
