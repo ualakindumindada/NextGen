@@ -138,7 +138,7 @@ header nav .right ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/Hero_Section.png");
+  background-image: url("../Images/Hero_Section.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,25 +257,25 @@ header nav .right ul li a:hover {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Card1\ Image.png");
+  background-image: url("../Images/Card1\ Image.png");
 }
 .our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Card2\ Image.png");
+  background-image: url("../Images/Card2\ Image.png");
 }
 .our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Card3\ Image.png");
+  background-image: url("../Images/Card3\ Image.png");
 }
 .our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Card4\ Image.png");
+  background-image: url("../Images/Card4\ Image.png");
 }
 .our-sport-programs .content-group .bottom-section .sport-card .top {
   display: flex;
@@ -425,25 +425,25 @@ header nav .right ul li a:hover {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Coach1.png");
+  background-image: url("../Images/Coach1.png");
 }
 .our-coaches .content-group .bottom-section .coach-card:nth-child(2) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Coach2.png");
+  background-image: url("../Images/Coach2.png");
 }
 .our-coaches .content-group .bottom-section .coach-card:nth-child(3) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Coach3.png");
+  background-image: url("../Images/Coach3.png");
 }
 .our-coaches .content-group .bottom-section .coach-card:nth-child(4) {
   width: 295px;
   height: 385px;
   border-radius: 16px;
-  background-image: url("../images/Coach4.png");
+  background-image: url("../Images/Coach4.png");
 }
 .our-coaches .content-group .bottom-section .coach-card .top {
   display: flex;
@@ -514,7 +514,7 @@ header nav .right ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/NewsletterImage.png");
+  background-image: url("../Images/NewsletterImage.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -580,25 +580,25 @@ header nav .right ul li a:hover {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Card1\ Image.png");
+    background-image: url("../Images/Card1\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Card2\ Image.png");
+    background-image: url("../Images/Card2\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Card3\ Image.png");
+    background-image: url("../Images/Card3\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Card4\ Image.png");
+    background-image: url("../Images/Card4\ Image.png");
   }
   .why-choose-us .content-group .bottom-section .fact-card h1 {
     font-size: 65px;
@@ -608,25 +608,25 @@ header nav .right ul li a:hover {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Coach1.png");
+    background-image: url("../Images/Coach1.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(2) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Coach2.png");
+    background-image: url("../Images/Coach2.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(3) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Coach3.png");
+    background-image: url("../Images/Coach3.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(4) {
     width: 200px;
     height: 325px;
     border-radius: 16px;
-    background-image: url("../images/Coach4.png");
+    background-image: url("../Images/Coach4.png");
   }
 }
 
@@ -724,25 +724,25 @@ header nav .right ul li a:hover {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Card1\ Image.png");
+    background-image: url("../Images/Card1\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(2) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Card2\ Image.png");
+    background-image: url("../Images/Card2\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(3) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Card3\ Image.png");
+    background-image: url("../Images/Card3\ Image.png");
   }
   .our-sport-programs .content-group .bottom-section .sport-card:nth-child(4) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Card4\ Image.png");
+    background-image: url("../Images/Card4\ Image.png");
   }
   .why-choose-us .content-group .bottom-section {
     width: 100%;
@@ -780,25 +780,25 @@ header nav .right ul li a:hover {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Coach1.png");
+    background-image: url("../Images/Coach1.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(2) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Coach2.png");
+    background-image: url("../Images/Coach2.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(3) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Coach3.png");
+    background-image: url("../Images/Coach3.png");
   }
   .our-coaches .content-group .bottom-section .coach-card:nth-child(4) {
     width: 100%;
     height: 400px;
     border-radius: 16px;
-    background-image: url("../images/Coach4.png");
+    background-image: url("../Images/Coach4.png");
   }
   .newsletter-section .content-group {
     padding: 100px 20px;
