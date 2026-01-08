@@ -41,6 +41,10 @@ h5 {
   font-size: 20px;
   font-weight: 500;
 }
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
 .spanh2 {
   color: var(--dark-gray-color);
 }
