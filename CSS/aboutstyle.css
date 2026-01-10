@@ -10,54 +10,65 @@ body {
 }
 
 
-section nav {
+.navbar nav {
     width: 100%;
-    padding: 20px 20px;
+    padding: 18px 30px;
     position: fixed;
-    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #1b1b1b;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-section nav .left {
-    display: flex;
-    flex-direction: row;
 
+.navbar nav .left img {
+    width: 120px;
 }
 
-section nav .right {
+
+.navbar nav .right {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 30px;
-
 }
 
-section nav .right .links ul {
 
+.navbar nav .right .links ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-
+    gap: 18px;
 }
 
-section nav .right .links ul li a {
-
+.navbar nav .right .links ul li a {
     text-decoration: none;
-    border: 1px solid blanchedalmond;
+    padding: 8px 18px;
     border-radius: 25px;
-    color: white;
-
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
-section nav .right .links ul li a:hover {
 
-    text-decoration: none;
-    border: 1px solid rgb(2, 44, 70);
-    border-radius: 25px;
-    color: rgb(255, 255, 255);
-
+.navbar nav .right .links ul li a:hover {
+    background-color: #0a2a43; 
+    box-shadow: 0 4px 10px rgba(10, 42, 67, 0.4);
 }
+
+
+.navbar nav .right .links ul li a.active {
+    background-color: #123c5a;
+}
+
+
+.navbar nav .right .img img {
+    width: 28px;
+    cursor: pointer;
+}
+
 
 nav .right .img {
     width: 40px;
@@ -155,89 +166,57 @@ nav .right .img {
 
 
 .Features {
-    width: auto;
-    height: auto;
     background: #1b1b1b;
     display: flex;
-    flex-direction: row;
     gap: 50px;
-    padding: 15px 25px;
+    padding: 25px;
 }
 
+
 .Features .box {
-    display: flex;
-    flex-direction: column;
-    background: white;
+    background: #fbd7a5;
     width: 250px;
     height: 250px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    padding: 20px;
+}
+
+
+.Features .box .top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Features .box .top img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.Features .box .bottom {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.Features .box .top  img{
-    width: 25px;
-    height: 25px;
-    justify-content: right;
-
-  
+.Features .box .bottom h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
 }
 
-.Features .box .bottom {
-   align-items: center;
-   align-content: center;
-   font-family: 'Courier New', Courier;
-   font-size: 30px;
 
+.Features .box:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease;
 }
 
-.Features .box .top  img{
-    width: 25px;
-    height: 25px;
-    justify-content: right;
 
-  
-}
 
-.Features .box .bottom {
-   align-items: center;
-   align-content: center;
-   font-family: 'Courier New', Courier;
-   font-size: 30px;
-
-}
-
-.Features .box .top  img{
-    width: 25px;
-    height: 25px;
-    justify-content: right;
-
-  
-}
-
-.Features .box .bottom {
-   align-items: center;
-   align-content: center;
-   font-family: 'Courier New', Courier;
-   font-size: 30px;
-
-}
-
-.Features .box .top  img{
-    width: 25px;
-    height: 25px;
-    justify-content: right;
-
-  
-}
-
-.Features .box .bottom {
-   align-items: center;
-   align-content: center;
-   font-family: 'Courier New', Courier;
-   font-size: 30px;
-
-}
 
 .footer {
     background: #d6f400;
