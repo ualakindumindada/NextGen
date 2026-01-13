@@ -6,6 +6,7 @@
   --white-color: #ffffff;
   --dark-gray-color: #787878;
   --light-gray-color: #bcbcbc;
+  --blue-color: #1956ff;
   --font-family: "Poppins", sans-serif;
 }
 
@@ -69,7 +70,11 @@ header nav {
   position: fixed;
   z-index: 100;
 }
-
+header nav .left a img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
 header nav .right {
   display: flex;
   align-items: center;
@@ -106,21 +111,21 @@ header nav .right .div2 a img {
 }
 
 header nav .right ul li a {
-  color: var(--black-color);
+  color: var(--white-color);
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  border: 1px solid var(--black-color);
+  border: 1px solid var(--white-color);
   padding: 8px 15px;
   border-radius: 40px;
   transition: all 0.3s ease;
 }
 
 header nav .right ul li a:hover {
-  background-color: var(--black-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 .hamburger {
@@ -133,8 +138,23 @@ header nav .right ul li a:hover {
 .hamburger span {
   width: 28px;
   height: 3px;
-  background-color: var(--black-color);
+  background-color: var(--white-color);
   border-radius: 2px;
+}
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+/* Smooth animation */
+.hamburger span {
+  transition: all 0.4s ease;
 }
 
 .hero-area {
@@ -263,6 +283,9 @@ header nav .right ul li a:hover {
   transition: all 0.3s ease;
   margin-top: -15px;
 }
+.hero-area .content-group .signup-form .btn-div button:hover {
+  background-color: var(--blue-color);
+}
 .hero-area .content-group .signup-form .btn-div h6 {
   color: var(--dark-gray-color);
   margin-top: 10px;
@@ -345,6 +368,7 @@ header nav .right ul li a:hover {
   header nav {
     width: 90%;
   }
+
   header nav .right {
     position: absolute;
     top: 70px;
@@ -369,10 +393,22 @@ header nav .right ul li a:hover {
     margin-top: 20px;
     margin-left: 40px;
   }
-
   header nav .right ul li a {
+    color: var(--black-color);
     font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid var(--black-color);
     padding: 10px 22px;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+  }
+
+  header nav .right ul li a:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
   }
   .hero-area .content-group {
     width: 80%;
