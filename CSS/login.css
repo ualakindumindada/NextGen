@@ -181,21 +181,21 @@ header nav .right ul li a:hover {
   margin-top: 40px;
   border-radius: 16px;
 }
-.hero-area .content-group .signup-form {
+.hero-area .content-group .login-form {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 0px;
 }
-.hero-area .content-group .signup-form .header-div h2 {
+.hero-area .content-group .login-form .header-div h3 {
   margin-top: 0px;
   margin-bottom: -25px;
 }
-.hero-area .content-group .signup-form .header-div h6 {
+.hero-area .content-group .login-form .header-div h6 {
   color: var(--dark-gray-color);
 }
-.hero-area .content-group .signup-form .email-div {
+.hero-area .content-group .login-form .email-div {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -203,12 +203,12 @@ header nav .right ul li a:hover {
   align-items: flex-start;
   margin-top: -50px;
 }
-.hero-area .content-group .signup-form .email-div h6 {
+.hero-area .content-group .login-form .email-div h6 {
   color: var(--dark-gray-color);
   text-align: left;
   margin-bottom: -5px;
 }
-.hero-area .content-group .signup-form .email-div input {
+.hero-area .content-group .login-form .email-div input {
   width: 100%;
   height: 40px;
   padding: 20px 15px; /* top-bottom | left-right */
@@ -217,10 +217,10 @@ header nav .right ul li a:hover {
   font-size: 16px;
   box-sizing: border-box;
 }
-.hero-area .content-group .signup-form .email-div input:focus {
+.hero-area .content-group .login-form .email-div input:focus {
   outline: none;
 }
-.hero-area .content-group .signup-form .password-div {
+.hero-area .content-group .login-form .password-div {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -228,12 +228,12 @@ header nav .right ul li a:hover {
   align-items: flex-start;
   margin-top: -30px;
 }
-.hero-area .content-group .signup-form .password-div h6 {
+.hero-area .content-group .login-form .password-div h6 {
   color: var(--dark-gray-color);
   text-align: left;
   margin-bottom: -5px;
 }
-.hero-area .content-group .signup-form .password-div input {
+.hero-area .content-group .login-form .password-div input {
   width: 100%;
   height: 40px;
   padding: 20px 15px; /* top-bottom | left-right */
@@ -242,35 +242,35 @@ header nav .right ul li a:hover {
   font-size: 16px;
   box-sizing: border-box;
 }
-.hero-area .content-group .signup-form .password-div input:focus {
+.hero-area .content-group .login-form .password-div input:focus {
   outline: none;
 }
-.hero-area .content-group .signup-form .forgot-password-div {
+.hero-area .content-group .login-form .forgot-password-div {
   display: flex;
   flex-direction: row;
   gap: 10px;
   justify-content: space-between;
   align-items: center;
 }
-.hero-area .content-group .signup-form .forgot-password-div .left {
+.hero-area .content-group .login-form .forgot-password-div .left {
   display: flex;
   flex-direction: row;
 }
-.hero-area .content-group .signup-form .forgot-password-div .left h6 {
+.hero-area .content-group .login-form .forgot-password-div .left h6 {
   color: var(--dark-gray-color);
 }
-.hero-area .content-group .signup-form .forgot-password-div .right a {
+.hero-area .content-group .login-form .forgot-password-div .right a {
   color: var(--dark-gray-color);
   text-decoration: none;
 }
-.hero-area .content-group .signup-form .btn-div {
+.hero-area .content-group .login-form .btn-div {
   display: flex;
   flex-direction: column;
   gap: 0px;
   justify-content: space-between;
   align-items: center;
 }
-.hero-area .content-group .signup-form .btn-div button {
+.hero-area .content-group .login-form .btn-div button {
   width: 100%;
   height: 45px;
   background-color: var(--black-color);
@@ -283,21 +283,21 @@ header nav .right ul li a:hover {
   transition: all 0.3s ease;
   margin-top: -15px;
 }
-.hero-area .content-group .signup-form .btn-div button:hover {
+.hero-area .content-group .login-form .btn-div button:hover {
   background-color: var(--blue-color);
 }
-.hero-area .content-group .signup-form .btn-div h6 {
+.hero-area .content-group .login-form .btn-div h6 {
   color: var(--dark-gray-color);
   margin-top: 10px;
 }
-.hero-area .content-group .signup-form .google-btn-div {
+.hero-area .content-group .login-form .google-btn-div {
   display: flex;
   flex-direction: column;
   gap: 0px;
   justify-content: space-between;
   align-items: center;
 }
-.hero-area .content-group .signup-form .google-btn-div button {
+.hero-area .content-group .login-form .google-btn-div button {
   width: 100%;
   height: 45px;
   display: flex;
@@ -314,7 +314,7 @@ header nav .right ul li a:hover {
   transition: all 0.3s ease;
   margin-top: -15px;
 }
-.hero-area .content-group .signup-form .have-account-div {
+.hero-area .content-group .login-form .have-account-div {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -322,10 +322,10 @@ header nav .right ul li a:hover {
   align-items: center;
   margin-top: -20px;
 }
-.hero-area .content-group .signup-form .have-account-div h6 {
+.hero-area .content-group .login-form .have-account-div h6 {
   color: var(--dark-gray-color);
 }
-.hero-area .content-group .signup-form .have-account-div a {
+.hero-area .content-group .login-form .have-account-div a {
   color: var(--black-color);
   text-decoration: none;
   font-weight: 600;
@@ -423,7 +423,7 @@ header nav .right ul li a:hover {
     margin-top: 40px;
     border-radius: 16px;
   }
-  .hero-area .content-group .signup-form {
+  .hero-area .content-group .login-form {
     width: 100%;
     height: 100%;
     display: flex;
