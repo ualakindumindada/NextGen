@@ -261,12 +261,7 @@ header nav .right ul li a:hover {
   gap: 20px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .left-section
-  form
-  .two-input-divs {
+.contact-us-section .content-group .bottom-section .left-section form .two-input-divs {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -274,13 +269,7 @@ header nav .right ul li a:hover {
   gap: 20px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .left-section
-  form
-  .two-input-divs
-  input {
+.contact-us-section .content-group .bottom-section .left-section form .two-input-divs input {
   width: 100%;
   height: 20px;
   padding: 10px;
@@ -292,13 +281,7 @@ header nav .right ul li a:hover {
   color: var(--black-color);
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .left-section
-  form
-  .input-divs
-  input {
+.contact-us-section .content-group .bottom-section .left-section form .input-divs input {
   width: 98%;
   height: 20px;
   font-size: 16px;
@@ -310,13 +293,7 @@ header nav .right ul li a:hover {
   color: var(--black-color);
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .left-section
-  form
-  .input-divs
-  textarea {
+.contact-us-section .content-group .bottom-section .left-section form .input-divs textarea {
   width: 98%;
   font-size: 16px;
   padding: 10px;
@@ -326,7 +303,20 @@ header nav .right ul li a:hover {
   background-color: var(--light-gray-color);
   color: var(--black-color);
 }
-
+.contact-us-section .content-group .bottom-section .left-section form .submit-btn-div button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact-us-section .content-group .bottom-section .left-section form .submit-btn-div button:hover {
+  background-color: var(--primary-color);
+  color: var(--black-color);
+}
 .contact-us-section .content-group .bottom-section .right-section {
   width: 30%;
   display: flex;
@@ -343,53 +333,24 @@ header nav .right ul li a:hover {
   text-align: left;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .address-div
-  h6 {
+.contact-us-section .content-group .bottom-section .right-section .address-div h6 {
   padding: 0px 20px;
 }
 
 .contact-us-section .content-group .bottom-section .right-section .contact-div,
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .open-time-div {
+.contact-us-section .content-group .bottom-section .right-section .open-time-div {
   width: 100%;
   text-align: left;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .contact-div
-  h5,
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .open-time-div
-  h5 {
+.contact-us-section .content-group .bottom-section .right-section .contact-div h5,
+.contact-us-section .content-group .bottom-section .right-section .open-time-div h5 {
   padding: 0px 20px;
   margin-top: -20px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .contact-div
-  h6,
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .open-time-div
-  h6 {
+.contact-us-section .content-group .bottom-section .right-section .contact-div h6,
+.contact-us-section .content-group .bottom-section .right-section .open-time-div h6 {
   padding: 0px 20px;
   margin-top: -35px;
 }
@@ -399,23 +360,12 @@ header nav .right ul li a:hover {
   text-align: left;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .stay-connected
-  h5 {
+.contact-us-section .content-group .bottom-section .right-section .social-div .stay-connected h5 {
   padding: 0px 20px;
   margin-top: -35px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .social-icons {
+.contact-us-section .content-group .bottom-section .right-section .social-div .social-icons {
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -425,13 +375,7 @@ header nav .right ul li a:hover {
   margin-top: -35px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .social-icons
-  .icon {
+.contact-us-section .content-group .bottom-section .right-section .social-div .social-icons .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,24 +385,11 @@ header nav .right ul li a:hover {
   border-radius: 50%;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .social-icons
-  .icon:hover {
+.contact-us-section .content-group .bottom-section .right-section .social-div .social-icons .icon:hover {
   scale: 1.1;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .social-icons
-  .icon
-  img {
+.contact-us-section .content-group .bottom-section .right-section .social-div .social-icons .icon img {
   width: 25px;
   height: 25px;
   margin-right: 15px;
@@ -467,14 +398,7 @@ header nav .right ul li a:hover {
   padding-left: 15px;
 }
 
-.contact-us-section
-  .content-group
-  .bottom-section
-  .right-section
-  .social-div
-  .social-icons
-  .icon
-  img:hover {
+.contact-us-section .content-group .bottom-section .right-section .social-div .social-icons .icon img:hover {
   scale: 1.1;
 }
 
@@ -490,6 +414,7 @@ header nav .right ul li a:hover {
   align-items: center;
   background-color: var(--primary-color);
 }
+
 
 .footer-section .content-group {
   width: 95%;
@@ -539,12 +464,7 @@ header nav .right ul li a:hover {
   border-radius: 50%;
 }
 
-.footer-section
-  .content-group
-  .top-section
-  .left-div
-  .social-icons
-  .icon:hover {
+.footer-section .content-group .top-section .left-div .social-icons .icon:hover {
   scale: 1.1;
 }
 
@@ -557,13 +477,7 @@ header nav .right ul li a:hover {
   padding-left: 15px;
 }
 
-.footer-section
-  .content-group
-  .top-section
-  .left-div
-  .social-icons
-  .icon
-  img:hover {
+.footer-section .content-group .top-section .left-div .social-icons .icon img:hover {
   scale: 1.1;
 }
 
@@ -621,9 +535,11 @@ header nav .right ul li a:hover {
   .hero-area {
     height: 85vh;
   }
+
   .contact-us-section {
     padding-bottom: 0px;
   }
+
   .footer-section .content-group .top-section .right-div {
     display: flex;
     flex-direction: row;
@@ -726,23 +642,11 @@ header nav .right ul li a:hover {
     display: flex;
   }
 
-  .contact-us-section
-    .content-group
-    .bottom-section
-    .left-section
-    form
-    .input-divs
-    input {
+  .contact-us-section .content-group .bottom-section .left-section form .input-divs input {
     width: 95%;
   }
 
-  .contact-us-section
-    .content-group
-    .bottom-section
-    .left-section
-    form
-    .input-divs
-    textarea {
+  .contact-us-section .content-group .bottom-section .left-section form .input-divs textarea {
     width: 95%;
   }
 
