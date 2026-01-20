@@ -49,6 +49,7 @@ h6 {
 .spanh2 {
   color: var(--dark-gray-color);
 }
+
 header {
   width: 100%;
   height: 80px;
@@ -156,6 +157,7 @@ header nav .right ul li a:hover {
 .hamburger span {
   transition: all 0.4s ease;
 }
+
 
 .hero-area {
   position: relative;
