@@ -303,20 +303,25 @@ header nav .right ul li a:hover {
   background-color: var(--light-gray-color);
   color: var(--black-color);
 }
+
 .contact-us-section .content-group .bottom-section .left-section form .submit-btn-div button {
   width: 150px;
   height: 40px;
   background-color: var(--black-color);
   color: var(--white-color);
+  font-weight: 600;
+  font-size: 20px;
   border: none;
   border-radius: 40px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .contact-us-section .content-group .bottom-section .left-section form .submit-btn-div button:hover {
   background-color: var(--primary-color);
   color: var(--black-color);
 }
+
 .contact-us-section .content-group .bottom-section .right-section {
   width: 30%;
   display: flex;
@@ -414,7 +419,6 @@ header nav .right ul li a:hover {
   align-items: center;
   background-color: var(--primary-color);
 }
-
 
 .footer-section .content-group {
   width: 95%;
