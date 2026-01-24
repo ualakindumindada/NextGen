@@ -157,8 +157,8 @@ header nav .right ul li a:hover {
   position: relative;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   background-image: url("../Images/BackgroundImage_02.png");
   background-size: cover;
   background-position: center;
@@ -169,13 +169,35 @@ header nav .right ul li a:hover {
   gap: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 .hero-area .content-group h1 {
-  text-align: center;
-  color: var(--black-color);
-  margin-bottom: -130px;
+  text-align: left;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: -20px;
+}
+
+.hero-area .content-group h5 {
+
+  text-align: left;
+  color: white;
+  margin-left: 30px;
+  
+}
+
+.hero-area .content-group button {
+  
+   background-color: rgb(210, 246, 7);
+     width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer; 
+    margin-left: 30px;
+  
 }
 
 .our-coaches {
