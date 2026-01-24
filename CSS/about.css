@@ -200,232 +200,43 @@ header nav .right ul li a:hover {
   
 }
 
-.our-coaches {
+.middle  {
+
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  /* padding: 5px 20px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.our-coaches .content-group {
-  width: 95%;
-  gap: 0px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.our-coaches .content-group .top-section {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.our-coaches .content-group .top-section a {
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: var(--black-color);
-  color: var(--white-color);
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 40px;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-.our-coaches .content-group .top-section img {
-  margin-bottom: -5px;
-}
-.our-coaches .content-group .bottom-section {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.our-coaches .content-group .bottom-section .coach-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-image: url("../Images/BackgroundImage_03.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-}
-.our-coaches .content-group .bottom-section .coach-card:nth-child(1) {
-  width: 295px;
-  height: 385px;
-  border-radius: 16px;
-  background-image: url("../Images/Coach1.png");
-}
-.our-coaches .content-group .bottom-section .coach-card:nth-child(2) {
-  width: 295px;
-  height: 385px;
-  border-radius: 16px;
-  background-image: url("../Images/Coach2.png");
-}
-.our-coaches .content-group .bottom-section .coach-card:nth-child(3) {
-  width: 295px;
-  height: 385px;
-  border-radius: 16px;
-  background-image: url("../Images/Coach3.png");
-}
-.our-coaches .content-group .bottom-section .coach-card:nth-child(4) {
-  width: 295px;
-  height: 385px;
-  border-radius: 16px;
-  background-image: url("../Images/Coach4.png");
-}
-.our-coaches .content-group .bottom-section .coach-card .top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 20px;
-}
-.our-coaches .content-group .bottom-section .coach-card .top .left a {
-  padding: 10px 20px;
-  background-color: transparent;
-  border: 1px solid var(--white-color);
-  border-radius: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: var(--white-color);
-  font-size: 18px;
-  font-weight: 600;
-}
-.our-coaches .content-group .bottom-section .coach-card .top .left a:hover {
-  background-color: var(--white-color);
-  color: var(--black-color);
-}
-.our-coaches .content-group .bottom-section .coach-card .top .right a {
-  width: 40px;
-  height: 40px;
-  background-color: var(--white-color);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.our-coaches .content-group .bottom-section .coach-card .top .right a:hover {
-  background-color: var(--primary-color);
-}
-.our-coaches .content-group .bottom-section .coach-card .bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 20px;
-}
-.our-coaches .content-group .bottom-section .coach-card .bottom h4 {
-  color: var(--white-color);
-  margin-bottom: -5px;
-}
-.our-coaches .content-group .bottom-section .coach-card .bottom h4:hover {
-  transform: scale(1.05);
-  cursor: pointer;
 }
 
-.video-section {
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
-  /* padding: 5px 20px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.video-section .content-group {
-  width: 100%;
-  gap: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 0px;
-}
-.video-section .content-group video {
-  width: 100%;
-  height: auto;
-}
-.newsletter-section {
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.newsletter-section .content-group {
-  width: 95%;
-  gap: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../Images/NewsletterImage.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  padding: 100px 0px;
-}
-.newsletter-section .content-group .top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.newsletter-section .content-group .top h2 {
-  color: var(--white-color);
+
+.middle .up h2{
+  
+  color: white;
   text-align: center;
-}
-.newsletter-section .content-group .top h5 {
-  margin-top: -20px;
-  color: var(--white-color);
-  text-align: center;
-}
-.newsletter-section .content-group .bottom {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+
+
 }
-.newsletter-section .content-group .bottom form {
-  gap: 20px;
+
+.middle .down {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 25px;
 }
-.newsletter-section .content-group .bottom form .emailinput {
-  border: none;
-  padding: 15px 30px;
-  width: 400px;
-  border-radius: 50px;
-  font-size: 18px;
-  font-weight: 500;
-  outline: none;
-}
-.newsletter-section .content-group .bottom form .Subscribebtn {
-  border: none;
-  padding: 15px 30px;
-  background-color: var(--primary-color);
-  color: var(--black-color);
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.middle .down .box{
+    height: 200px;
+    width: 250px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 .footer-section {
   position: relative;
