@@ -198,54 +198,81 @@ header nav .right ul li a:hover {
   background-color: var(--black-color);
   color: var(--white-color);
 }
-
-.middle {
+.features-section {
   position: relative;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("../Images/BackgroundImage_03.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
-.middle .up h2 {
-  color: white;
-  text-align: center;
+.features-section .content-group {
+  width: 95%;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.middle .down {
+.features-section .top-section h2 {
+  color: var(--white-color);
+  text-align: center;
+}
+.features-section .bottom-section {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  margin-left: 25px;
+  justify-content: space-between;
+  gap: 20px;
 }
-.middle .down .box {
-  height: 250px;
-  width: 255px;
+.features-section .bottom-section .box {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
   background-color: var(--white-color);
   border-radius: 20px;
-  justify-content: center;
-  justify-items: center;
-  font-style: italic;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.middle .down .box .top span {
+.features-section .bottom-section .box .top {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 15px;
+}
+.features-section .bottom-section .box .top .circle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 32px;
-  font-weight: bold;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: #1c1001;
   color: #ffffff;
   border-radius: 50%;
   border: solid 2px rgb(250, 249, 249);
+  margin-right: 20px;
+  font-size: 55px;
+}
+.features-section .bottom-section .box .top .circle span {
+  margin-top: 20px;
+}
+.features-section .bottom-section .box .bottom {
+  width: 90%;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .footer-section {
@@ -374,45 +401,12 @@ header nav .right ul li a:hover {
   .hero-area {
     height: 50vh;
   }
-
-  .our-coaches {
-    padding-top: 50px;
-    padding-bottom: 30px;
+  .features-section .bottom-section .box {
+    height: 280px;
   }
-  .our-coaches .content-group .bottom-section .coach-card:nth-child(1) {
-    width: 200px;
-    height: 325px;
-    border-radius: 16px;
-    background-image: url("../Images/Coach1.png");
+  .features-section .bottom-section .box .bottom h3 {
+    font-size: 24px;
   }
-  .our-coaches .content-group .bottom-section .coach-card:nth-child(2) {
-    width: 200px;
-    height: 325px;
-    border-radius: 16px;
-    background-image: url("../Images/Coach2.png");
-  }
-  .our-coaches .content-group .bottom-section .coach-card:nth-child(3) {
-    width: 200px;
-    height: 325px;
-    border-radius: 16px;
-    background-image: url("../Images/Coach3.png");
-  }
-  .our-coaches .content-group .bottom-section .coach-card:nth-child(4) {
-    width: 200px;
-    height: 325px;
-    border-radius: 16px;
-    background-image: url("../Images/Coach4.png");
-  }
-  .video-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .video-section .content-group video {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
-
   .footer-section .content-group .top-section .right-div {
     display: flex;
     flex-direction: row;
