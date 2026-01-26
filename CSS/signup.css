@@ -113,7 +113,7 @@ header nav .right .div2 a img {
 
 header nav .right ul li a {
   color: var(--white-color);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
@@ -157,7 +157,6 @@ header nav .right ul li a:hover {
 .hamburger span {
   transition: all 0.4s ease;
 }
-
 
 .hero-area {
   position: relative;
