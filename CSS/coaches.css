@@ -48,6 +48,10 @@ h6 {
 .spanh2 {
   color: var(--dark-gray-color);
 }
+#nav-links.active {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
 header {
   width: 100%;
   height: 80px;
@@ -336,7 +340,6 @@ header nav .right ul li a:hover {
 .video-section .content-group video {
   width: 100%;
   height: auto;
-
 }
 .newsletter-section {
   position: relative;
