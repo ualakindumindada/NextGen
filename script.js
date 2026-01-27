@@ -7,6 +7,9 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
 });
 
+
+
+
 // FAQ Section Toggle
 document.querySelectorAll(".faq-question").forEach((question) => {
   question.addEventListener("click", () => {
@@ -14,6 +17,9 @@ document.querySelectorAll(".faq-question").forEach((question) => {
     faqItem.classList.toggle("active");
   });
 });
+
+
+
 
 // Highlight Current Page in Navigation
 const navLinks = document.querySelectorAll("#nav-links");
@@ -24,8 +30,6 @@ navLinks.forEach((link) => {
     link.classList.add("active");
   }
 });
-
-
 
 
 
@@ -47,6 +51,9 @@ const revealObserver = new IntersectionObserver(
   },
 );
 revealElements.forEach((el) => revealObserver.observe(el));
+
+
+
 
 // Counter Animation
 const counters = document.querySelectorAll(".counter");
@@ -84,3 +91,17 @@ const counterObserver = new IntersectionObserver(
 );
 
 counters.forEach((counter) => counterObserver.observe(counter));
+
+
+
+
+// Message Alert for contact form
+
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // prevent page refresh
+
+    alert("Thank you for reaching out to us!\nYour message has been successfully received. We will contact you shortly.");
+
+    this.reset(); // clear form (optional)
+  });
+
